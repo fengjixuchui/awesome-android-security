@@ -15,12 +15,18 @@
   * [Dynamic Analysis Tools](#Dynamic-Analysis)
   * [Online APK Analyzers](#Online-APK-Analyzers)
   * [Online APK Decompiler](#Online-APK-Decompiler)
+  * [Forensic Analysis Tools](#Forensic-Analysis)
 - [Labs](#labs)
 - [Talks](#talks)
 - [Misc](#misc)
 - [Bug Bounty & Writeups](#Bug-Bounty-&-Writeup)
 - [Cheat Sheet](#Cheat-Sheet)
+- [Checklist](#Checklist)
+- [Bug Bounty Report](#Bug-Bounty-Report)
+
 # Blog
+* [Evernote: Universal-XSS, theft of all cookies from all sites, and more](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/)
+* [Interception of Android implicit intents](https://blog.oversecured.com/Interception-of-Android-implicit-intents/)
 * [AAPG - Android application penetration testing guide](https://nightowl131.github.io/AAPG/)
 * [TikTok: three persistent arbitrary code executions and one theft of arbitrary files](https://blog.oversecured.com/Oversecured-detects-dangerous-vulnerabilities-in-the-TikTok-Android-app/)
 * [Persistent arbitrary code execution in Android's Google Play Core Library: details, explanation and the PoC - CVE-2020-8913](https://blog.oversecured.com/Oversecured-automatically-discovers-persistent-code-execution-in-the-Google-Play-Core-Library/)
@@ -41,6 +47,7 @@
 * [Practical Android Phone Forensics](https://resources.infosecinstitute.com/practical-android-phone-forensics/)
 * [Mobile Pentesting With Frida](https://drive.google.com/file/d/1JccmMLi6YTnyRrp_rk6vzKrUX3oXK_Yw/view)
 * [Zero to Hero - Mobile Application Testing - Android Platform](https://nileshsapariya.blogspot.com/2016/11/zero-to-hero-mobile-application-testing.html)
+* [Detecting Dynamic Loading in Android Applications](https://sayfer.io/blog/dynamic-loading-in-android-applications-with-proc-maps/)
 
 # How To's
 * [How To Configuring Burp Suite With Android Nougat](https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/)
@@ -55,7 +62,8 @@
 # Paper
 * [AndrODet: An adaptive Android obfuscation detector](https://arxiv.org/pdf/1910.06192.pdf)
 * [GEOST BOTNET - the discovery story of a new Android banking trojan](http://public.avast.com/research/VB2019-Garcia-etal.pdf)
-
+* [Dual-Level Android Malware Detection](https://www.mdpi.com/2073-8994/12/7/1128)
+* [An Investigation of the Android Kernel Patch Ecosystem](https://www.usenix.org/conference/usenixsecurity21/presentation/zhang)
    
 # Books
 
@@ -68,13 +76,13 @@
  * [Android Malware and Analysis](https://www.oreilly.com/library/view/android-malware-and/9781482252200/)
  * [Android Security: Attacks and Defenses](https://www.crcpress.com/Android-Security-Attacks-and-Defenses/Misra-Dubey/p/book/9780367380182)
  * [Learning Penetration Testing For Android Devices](https://www.amazon.com/Learning-Penetration-Testing-Android-Devices-ebook/dp/B077L7SNG8)
-
+* [Android Hacking 2020 Edition](https://www.amazon.com/Hacking-Android-TERRY-D-CLARK-ebook/dp/B08MD2D1SJ)
 
  
 # Course
- 
+
+* [Android Reverse Engineering_pt-BR](https://www.youtube.com/watch?v=eHdDS2e_qf0&list=PL4zZ9lJ-RCbfv6f6Jc8cJ4ljKqENkTfi7) 
 * [Learning-Android-Security](https://www.lynda.com/Android-tutorials/Learning-Android-Security/689762-2.html)
-* [Mobile Application Security and Penetration Testing](https://www.elearnsecurity.com/course/mobile_application_security_and_penetration_testing/)
 * [Advanced Android Development](https://developer.android.com/courses/advanced-training/overview)
 * [Learn the art of mobile app development](https://www.edx.org/professional-certificate/harvardx-computer-science-and-mobile-apps)
 * [Learning Android Malware Analysis](https://www.linkedin.com/learning/learning-android-malware-analysis)
@@ -86,6 +94,8 @@
      
 #### Static Analysis
 
+* [Android Reverse Engineering WorkBench for VS Code
+](https://github.com/Surendrajat/APKLab)
 * [Apktool:A tool for reverse engineering Android apk files](https://ibotpeaches.github.io/Apktool/)
 * [quark-engine - An Obfuscation-Neglect Android Malware Scoring System](https://github.com/quark-engine/quark-engine)
 
@@ -113,6 +123,7 @@
 * [APK Leaks – Scanning APK file for URIs, endpoints & secrets](https://github.com/dwisiswant0/apkleaks)
 * [Trueseeing – fast, accurate and resillient vulnerabilities scanner for Android apps](https://github.com/monolithworks/trueseeing)
 * [StaCoAn – crossplatform tool which aids developers, bugbounty hunters and ethical hackers](https://github.com/vincentcox/StaCoAn)
+* [APKScanner](https://github.com/n3k00n3/APKScanner)
       
 #### Dynamic Analysis
 
@@ -155,8 +166,17 @@
 * [apk and dex decompilation back to Java source code](http://www.decompiler.com/)
 * [APK Decompiler Tools](https://apk.tools/tools/apk-decompiler/alternateURL/)
 
+#### Forensic Analysis
+* [Forensic Analysis for Mobile Apps (FAMA)](https://github.com/labcif/FAMA)
+* [Andriller](https://github.com/den4uk/andriller)
+* [Autopsy](https://www.autopsy.com/)
+* [bandicoot](https://github.com/computationalprivacy/bandicoot)
+* [Fridump-A universal memory dumper using Frida](https://github.com/Nightbringer21/fridump)
+* [LiME - Linux Memory Extractor](https://github.com/504ensicsLabs/LiME)
+
 # Labs
-  
+
+* [Damn-Vulnerable-Bank](https://github.com/rewanth1997/Damn-Vulnerable-Bank)  
 * [OVAA (Oversecured Vulnerable Android App)](https://github.com/oversecured/ovaa)
 * [DIVA (Damn insecure and vulnerable App)](https://github.com/payatu/diva-android)
 * [OWASP Security Shepherd ](https://github.com/OWASP/SecurityShepherd)
@@ -218,10 +238,19 @@
    
 # Bug Bounty & Writeup
 * [Hacker101 CTF: Android Challenge Writeups](https://medium.com/bugbountywriteup/hacker101-ctf-android-challenge-writeups-f830a382c3ce)
-* [Arbitrary code execution on Facebook for Android through download feature
-](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
+* [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
 
+* [RCE via Samsung Galaxy Store App](https://labs.f-secure.com/blog/samsung-s20-rce-via-samsung-galaxy-store-app/)
 
 # Cheat Sheet 
 * [Mobile Application Penetration Testing Cheat Sheet](https://github.com/sh4hin/MobileApp-Pentest-Cheatsheet)
 * [ADB (Android Debug Bridge) Cheat Sheet](https://www.mobileqaengineer.com/blog/2020/2/4/adb-android-debug-bridge-cheat-sheet)
+* [Frida Cheatsheet and Code Snippets for Android](https://erev0s.com/blog/frida-code-snippets-for-android/)
+
+# Checklist
+* [Android Pentesting Checklist](https://mobexler.com/checklist.htm#android)
+* [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/tree/master/Checklists)
+
+# Bug Bounty Report 
+* [List of Android Hackerone disclosed reports](https://github.com/B3nac/Android-Reports-and-Resources)
+* [How to report security issues](https://source.android.com/security/overview/updates-resources#report-issues)
