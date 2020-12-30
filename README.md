@@ -25,6 +25,9 @@
 - [Bug Bounty Report](#Bug-Bounty-Report)
 
 # Blog
+
+* [Exploiting new-era of Request forgery on mobile applications](http://dphoeniixx.com/2020/12/13-2/)
+* [Deep Dive into an Obfuscation-as-a-Service for Android Malware](https://wwwstratosphereips.org/blog/2020/12/03/deep-dive-into-an-obfuscation-as-a-service-for-android-malware)
 * [Evernote: Universal-XSS, theft of all cookies from all sites, and more](https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more/)
 * [Interception of Android implicit intents](https://blog.oversecured.com/Interception-of-Android-implicit-intents/)
 * [AAPG - Android application penetration testing guide](https://nightowl131.github.io/AAPG/)
@@ -94,6 +97,7 @@
      
 #### Static Analysis
 
+* [Deoptfuscator - Deobfuscator for Android Application](https://github.com/Gyoonus/deoptfuscator)
 * [Android Reverse Engineering WorkBench for VS Code
 ](https://github.com/Surendrajat/APKLab)
 * [Apktool:A tool for reverse engineering Android apk files](https://ibotpeaches.github.io/Apktool/)
